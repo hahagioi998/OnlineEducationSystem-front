@@ -1,0 +1,450 @@
+:root {
+  --primary: #fff;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  margin-top: 18px;
+}
+
+.logout-btn {
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 10px;
+  cursor: pointer;
+  margin-left:800px;
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  top: 30%;
+  left: 30%;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--large:hover, .btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
+
+.logintag {
+  margin-left: 500px;
+  
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.buttonLogout span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonLogout span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonLogout:hover span {
+  padding-right: 15px;
+}
+
+.buttonLogout:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonLogout {
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 10px;
+  cursor: pointer;
+  margin-left:800px;
+  width: 100px;
+  background-color: rgb(72, 77, 85);
+  top: 30%;
+  left: 30%;
+}
+
+.buttonLogout:hover {
+  background-color: rgb(147, 153, 161);
+  color: #242424;
+}
+
+.buttonLogout:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.buttonLogouts span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonLogouts span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonLogouts:hover span {
+  padding-right: 15px;
+}
+
+.buttonLogouts:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonLogouts {
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 10px;
+  cursor: pointer;
+  margin-left:790px;
+  width: 100px;
+  background-color: rgb(72, 77, 85);
+  top: 30%;
+  left: 30%;
+}
+
+.buttonLogouts:hover {
+  background-color: rgb(147, 153, 161);
+  color: #242424;
+}
+
+.buttonLogouts:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+.buttonStudent span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonStudent span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonStudent:hover span {
+  padding-right: 25px;
+}
+
+.buttonStudent:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonStudent {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 300px;
+  width: 200px;
+  background-color: rgb(50, 65, 88);
+  top: 30%;
+  left: 30%;
+}
+
+.buttonStudent:hover {
+  background-color: rgb(147, 153, 161);
+  color: #242424;
+}
+
+.buttonStudent:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonTeacher {
+  background-color: rgb(50, 65, 88);
+  border: lightblue;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 4px;
+  
+  width: 200px;
+}
+
+.buttonTeacher:hover {
+  background-color: rgb(147, 153, 161);
+  color: #242424;
+}
+
+.buttonTeacher:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonTeacher span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonTeacher span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonTeacher:hover span {
+  padding-right: 25px;
+}
+
+.buttonTeacher:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.buttonAdmin span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonAdmin span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonAdmin:hover span {
+  padding-right: 25px;
+}
+
+.buttonAdmin:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonAdmin {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left:5px;
+  width: 200px;
+  background-color: rgb(50, 65, 88);
+  top: 30%;
+  left: 30%;
+}
+
+.buttonAdmin:hover {
+  background-color: rgb(147, 153, 161);
+  color: #242424;
+}
+
+.buttonAdmin:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonDash {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  background-color: rgb(50, 65, 88);
+}
+
+.buttonDash:hover {
+  background-color: rgb(106, 152, 211);
+  color: #242424;
+}
+
+.buttonDash:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonDashUp {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+  background-color: rgb(50, 65, 88);
+}
+
+.buttonDashUp:hover {
+  background-color: rgb(106, 152, 211);
+  color: #242424;
+}
+
+.buttonDashUp:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logemail {
+  font-size: 20px;
+  color: rgb(49, 85, 202);
+}
+
+.text-left {
+  font-size: 20px;
+  color: rgb(49, 85, 202);
+}
+
+.container-fluid {
+  margin-top: 80px;
+}
+
+
+.buttonSubmit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonSubmit span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonSubmit:hover span {
+  padding-right: 25px;
+}
+
+.buttonSubmit:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonSubmit {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 8px;
+  width: 200px;
+  background-color: rgb(24, 30, 39);
+  top: 30%;
+  left: 30%;
+}
+
+.buttonSubmit:hover {
+  background-color: rgb(147, 153, 161);
+  color: #242424;
+}
+
+.buttonSubmit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

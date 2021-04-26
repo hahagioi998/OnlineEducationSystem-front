@@ -1,0 +1,276 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.login-block {
+  background: #7261be;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFB88C, #7261be);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFB88C, #7261be);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  float: left;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.banner-sec {
+  
+  min-height: 500px;
+  border-radius: 0 10px 10px 0;
+  padding: 0;
+  margin-top: 5%;
+ 
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("./log1.gif");
+
+  /* Control the height of the image */
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+
+.container {
+  background: rgb(230, 218, 218);
+ 
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+ 
+}
+
+.carousel-inner {
+  border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+  text-align: left;
+  left: 5%;
+}
+
+.login-sec {
+  padding: 68px 35px;
+  position: relative;
+ 
+  
+  
+}
+
+.login-sec .copy-text {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  bottom: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.login-sec .copy-text i {
+  color: #fdfdfd;
+}
+
+.login-sec .copy-text a {
+  color: #c0bbd4;
+}
+
+.login-sec h2 {
+  margin-bottom: 20px;
+  font-weight:bolder;
+  font-size: 35px;
+  color: rgb(248, 248, 248);
+}
+
+.login-sec h2:after {
+  content: " ";
+  width: 200px;
+  height: 5px;
+  background: #fdfdfd;
+  display: block;
+  margin-top: 8px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.btn-login {
+  background: rgb(43, 59, 82);
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+}
+
+.btn-login:hover {
+  background-color: #1f91ad;
+}
+
+.btn-login:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-login span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-login span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.banner-text {
+  width: 70%;
+  position: absolute;
+  bottom: 40px;
+  padding-left: 20px;
+}
+
+.banner-text h2:after {
+  content: " ";
+  width: 100px;
+  height: 5px;
+  background: #FFF;
+  display: block;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.banner-text p {
+  color: rgba(255, 255, 255, 0);
+}
+
+.login_container {
+  padding: 0 2rem;
+}
+
+.linka {
+  color: #fdfdfd !important;
+  padding: 0px !important;
+}
+
+.linka:hover {
+  color: #7261be !important;
+  padding: 0px !important;
+}
+
+.errorMsg {
+  color: #f1efef;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6B8E23;
+  margin-bottom: 10px;
+}
+
+textarea, input {
+  
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+form {
+  background: #b3c7d45b;
+  padding: 1.5em;
+  border-radius: 1em;
+
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+
+.cardfor {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #9c9c9c18;
+  background-clip: border-box;
+  border: 1px solid rgba(48, 46, 46, 0.514);
+  border-radius: .25rem;
+}
+
+
+
+
+/* Font Awesome Icon*/
+.fontuser {
+  position: relative;
+}
+
+.fontuser i{
+  position:relative;
+  left: 15px;
+  top: 100px;
+  color: gray;
+}
+
+.fontpassword {
+  position: relative;
+}
+
+.fontpassword i{
+  position: absolute;
+  left: 15px;
+  top: 100px;
+  color: gray;
+}
+
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

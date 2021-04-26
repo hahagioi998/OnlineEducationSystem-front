@@ -1,0 +1,39 @@
+.bimg-1 {
+    /* The image used */
+    background-image: url("./bimg-1.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  .containers {
+    background: rgba(255, 255, 255, 0);
+   
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .carda {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(255, 255, 255, 0.466);
+    background-clip: border-box;
+    border: 1px solid rgb(0 0 0 / 0%);
+    border-radius: 0.25rem;
+}

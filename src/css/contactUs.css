@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+
+}
+.home{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  
+
+}
+
+
+.contactUs {
+  background-repeat: repeat;
+  background-color: rgb(123, 164, 219);
+  color: rgb(0, 0, 0);
+  height: 100vh;
+  font-size: 50px;
+  /* font-family: Arial, Helvetica; */
+}
+
+.visit-tag {
+  font-style: inherit;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 60px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(121, 76, 21);
+}
+
+.email-tag {
+  font-style: inherit;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 70px;
+  color: rgb(194, 111, 9);
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.mobile-tag {
+  font-style: inherit;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 70px;
+  color: rgb(194, 111, 9);
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.contact-tag {
+  color: rgb(16, 4, 58);
+  font-style: inherit;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 100px;
+  font-size: 30px;
+  font-family: initial;
+  font-family: "PT Sans", sans-serif;
+}
+
+.para1 {
+  text-align: left;
+  height: 5vh;
+  margin-left: 200px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.sign-up {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+
+.loginAs {
+  background-color: rgb(205, 214, 226);
+}
+
+.buttontag {
+  background-position: center;
+}
+
+.bottomFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.mail {
+  color: rgb(26, 12, 77);
+  height: 100vh;
+  font-size: 20px;
+  margin-left: 200px;
+}
+.mobile {
+  color: rgb(26, 12, 77);
+  height: 100vh;
+  font-size: 20px;
+  margin-left: 200px;
+}

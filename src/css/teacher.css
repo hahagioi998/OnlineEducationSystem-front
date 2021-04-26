@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins :100,200,300,400,500,600,700,800,900');
+ @import url('https://fonts.googleapis.com/css?family=Quicksand :300');
+ @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+ .box{
+   position: relative;
+   align-items: center;
+   width: 300px;
+   height: 100px;
+   display: flex;
+   text-align: left;
+   justify-content: center;
+   align-items: left;
+   
+ }
+ .neon{
+   
+
+   transform: translate(-50%,-50%);
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   
+ }
+ .neon :after{
+   content: attr(data-text);
+   top: 0;
+   left: 0;
+   padding: 0 20px;
+   z-index: -1;
+   color: #ffffff;
+   filter: blur(15px);
+   
+ }
+ .neon :before{
+   width: 100%;
+   height: 100%;
+   background: #ffffff;
+   z-index: -2;
+   opacity: .5;
+   filter: blur(40px);
+ }
+
+
+ .neon1{
+   
+
+  transform: translate(-50%,-50%);
+  font-size: 15px;
+  font-family: 'Quicksand',sans-serif;
+  color: rgb(255, 255, 255);
+  
+}
+.neon1 :after{
+  content: attr(data-text);
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  z-index: -1;
+  color: #ffffff;
+  filter: blur(15px);
+  
+}
+.neon1 :before{
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: -2;
+  opacity: .5;
+  filter: blur(40px);
+}
+ .navwelcome{
+   position: relative;
+   top:20px;
+   left: 400px;
+   text-align: left;
+  
+   
+   
+ }
+ .TeacherNavbar {
+  background: linear-gradient(100deg, rgba(2, 0, 10, 0.849),rgb(38, 45, 58) 100%);
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  overflow: none;
+  
+}
+.TeacherNavbar1 {
+  background-color:#222529;
+  
+  height: cover;
+}
+.nav-menu-itemsL {
+  width: 100%;
+  background: linear-gradient(100deg, rgba(2, 0, 10, 0.849),rgb(38, 45, 58) 100%);
+ 
+}
+.TeacherNavbar-toggle {
+  background-color:#222529;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+ .box:before
+ {
+   content: '';
+   position: relative;
+   top: -2px;
+   left: -2px;
+   right: -2px;
+   bottom: -2px;
+   background: rgb(13, 14, 13);
+   z-index: -1;
+ }
+.wel{
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  font-size: large;
+
+}
+
+.wel2{
+  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:black;
+  font-size: larger;
+  font-weight: bolder;
+  
+}
+.sidebarteacher {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+ .box:after
+ {
+   content: '';
+   position: absolute;
+   top: -2px;
+   left: -2px;
+   right: -2px;
+   bottom: -2px;
+   background:blue;
+   z-index: -2;
+   filter: blur(20px);
+ }
+ .pro{
+   font-size:30px;
+   color:rgb(19, 19, 61);
+ }
+ .tablede{
+  border: 3px solid black;
+  position: relative;
+  top: 100px;
+  left: 300px;
+  right: 80px;
+  width: 1000px;
+  
+  
+ }
+
+ .tea-img {
+  /* The image used */
+  background-image: url("./dec.gif");
+
+  /* Control the height of the image */
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+ .box:before,
+ .box:after
+ {
+   background: linear-gradient(235deg,green,#1c3fbe,#00bcd4);
+ }
+ .content{
+   padding: 20px;
+   box-sizing: border-box;
+   color:#fff;
+ }
+  .bg-suc {
+    /* The image used */
+    background-image: url("./tenor.gif");
+  
+    /* Control the height of the image */
+    min-height: 200px;
+    min-width: 200px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+     position: relative;
+  
+   
+  }
+
+  .bg-del {
+    /* The image used */
+    background-image: url("./dec.gif");
+  
+    /* Control the height of the image */
+    min-height: 300px;
+    min-width: 400px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    position: relative;
+  
+  
+  }
+
+  .menu-barsL {
+    margin-left: 2rem;
+    font-size: 1rem;
+    background: none;
+  }
+  
+  .nav-menuL {
+
+    background-color:#222529;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menuL.activeL {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .nav-textL {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 40px;
+
+  }
+  
+  .nav-textL a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 14px;
+    width: 70%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+  
+    border-radius: 2px;
+  }
+  
+  .nav-textL a:hover {
+    background-color: rgba(187, 162, 162, 0.959);
+  }
+  
+  
+ 
+  
+  spanL {
+    margin-left: 16px;
+  }
+
+
+
+  .navit-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+   margin-right: -60%;
+  }
+  
+  .navt-item {
+    height: 80px;
+  }
+  .menut-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+  .sch-img {
+    /* The image used */
+    background-image: url("./sche.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .test-img {
+    /* The image used */
+    background-image: url("./test.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     width: 2000px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  .t-img {
+    /* The image used */
+    background-image: url("./t.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .vt-img {
+    /* The image used */
+    background-image: url("./ett9.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  .vtt-img {
+    /* The image used */
+    background-image: url("./vtt.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  .et-img {
+    /* The image used */
+    background-image: url("./et.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .et1-img {
+    /* The image used */
+    background-image: url("./ett8.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .ett1-img {
+    /* The image used */
+    background-image: url("./bimg-1.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  .at-img {
+    /* The image used */
+    background-image: url("./at.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .re-img {
+    /* The image used */
+    background-image: url("./report.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  .vr-img {
+    /* The image used */
+    background-image: url("./vr.jpg");
+  
+    /* Control the height of the image */
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .bg{
+
+    background-image: url("./att.jpg");
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+  
+  
+  }
+
+
+
+  .homi{
+
+    background-image: url("./homi.jpg");
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+  
+  
+  }
+
+ 
+
+  .fi{
+
+    background-image: url("./fi.jpg");
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+  
+  
+  }
+
+
+  .att{
+
+    background-image: url("./att.jpg");
+    min-height: 800px;
+     
+    /* Center and scale the image nicely */
+    padding-top: 20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+  
+  
+  }
+
+  .pdd{
+    color: navy;
+  }
+
+  
+ 
+.cardb {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff5e;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.pdd1 {
+
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  }
